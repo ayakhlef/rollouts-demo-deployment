@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
 - service.yaml
 - ingress.yaml
+- rollout.yml
 - preview-service.yaml
 images:
 - name: alexmt/rollouts-demo
